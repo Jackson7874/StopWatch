@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-size: 100%;
+}
+
+body {
+    background-color: #19172e;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 100vh;
+    color: #fff;
+    font-size: 8rem;
+    font-family: monospace;
+}
+
+#timer-container {
+    width: 8em;
+    height: auto;
+    text-align: center;
+}
+
+#time {
+    width: 100%;
+}
+
+.button {
+    font-family: monospace;
+    font-size: 2rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    outline: solid 2px #fff;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+}
+
+.button:hover {
+    outline-offset: -2px;
+}
+
+#start {
+    background-color: #3a943a;
+}
+
+#pause {
+    background-color: #a82e2e;
+}
