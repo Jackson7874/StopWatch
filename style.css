@@ -1,4 +1,4 @@
-* {
+:hover* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
@@ -45,10 +45,14 @@ body {
     outline-offset: -2px;
 }
 
-#start {
-    background-color: #3a943a;
+#start:hover {
+    background-color: #55a055;
 }
 
-#pause {
-    background-color: #a82e2e;
+#pause:hover {
+    background-color: #b94747;
+}
+
+#reset:hover {
+    background-color: #ffcb5c;
 }
